@@ -1,0 +1,18 @@
+{
+  "name": "file-transformer",
+  "version": "1.2.3",
+  "description": "A utility to transform file contents for easy upload / storage over cloud",
+  "main": "./exec/index.js",
+  "bin": {
+    "file-transformer": "./exec/index.js"
+  },
+  "keywords": [
+    "file",
+    "transformer",
+    "file-transformer",
+    "transform"
+  ],
+  "author": "K.C.Ashish Kumar",
+  "license": "MIT",
+  "repository": "https://github.com/npx-bin/file-transformer.git"
+}
