@@ -11,10 +11,20 @@ let Logger = {
 let sourceFileName = process.argv && process.argv[2];
 
 if (!sourceFileName) {
-    Logger.log("\nError: Missing Source filename\n\nUsage:\nnpx npx-bin/file-transformer <filename_or_path>\n");
+    Logger.log("");
+    Logger.log("Error: Missing Source filename");
+    Logger.log("");
+    Logger.log("Usage:");
+    Logger.log("");
+    Logger.log("npx npx-bin/file-transformer <filename_or_path>");
+    Logger.log("(or)");
+    Logger.log("npx file-transformer <filename_or_path>");
     Logger.log("This module is a CLI and cannot be used from a node js file currently.");
     Logger.log("For more information, refer the readme file here . . .");
-    Logger.log("https://github.com/npx-bin/file-transformer/blob/master/README.md\n\n");
+    Logger.log("https://github.com/npx-bin/file-transformer/blob/master/README.md");
+    Logger.log("");
+    Logger.log("");
+    process.exit(1);
 } else {
     Logger.log("Reading file: " + sourceFileName);
     fs.readFile(sourceFileName, (err,data)=>{

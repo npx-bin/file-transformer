@@ -1,6 +1,6 @@
 {
   "name": "file-transformer",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "A utility to transform file contents for easy upload / storage over cloud",
   "main": "./exec/index.js",
   "bin": {
