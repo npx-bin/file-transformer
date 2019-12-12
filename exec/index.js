@@ -16,8 +16,6 @@ if (!sourceFileName) {
     Logger.log("");
     Logger.log("Usage:");
     Logger.log("npx npx-bin/file-transformer <filename_or_path>");
-    Logger.log("(or)");
-    Logger.log("npx file-transformer <filename_or_path>");
     Logger.log("");
     Logger.log("This module is a CLI and cannot be used from a node js file currently.");
     Logger.log("For more information, refer the readme file here . . .");
