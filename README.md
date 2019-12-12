@@ -11,23 +11,11 @@ A utility to transform file contents for easy upload / storage over cloud
 $ npx npx-bin/file-transformer <filename_or_path>
 ```
 
-(or)
-
-```
-$ npx file-transformer <filename_or_path>
-```
-
 ### via npm (Installs globally and doesn't require download each time)
 
 Step 1: Install the package globally
 ```
-$ npm install -g npx-bin/file-transformer
-```
-
-(or)
-
-```
-$ npm install -g file-transformer
+$ npm install -g @kcak11/file-transformer
 ```
 
 Step 2: Run the command
