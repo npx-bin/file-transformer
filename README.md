@@ -15,7 +15,7 @@ $ npx npx-bin/file-transformer <filename_or_path>
 
 Step 1: Install the package globally
 ```
-$ npm install -g @kcak11/file-transformer
+$ npm i -g @kcak11/file-transformer
 ```
 
 Step 2: Run the command
