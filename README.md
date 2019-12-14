@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/npx-bin/file-transformer/master/assets/transform.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/npx-bin/misc/master/transform_logo.png" width="100%"/>
 
 # file-transformer
 A utility to transform file contents for easy upload / storage over cloud
