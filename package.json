@@ -1,7 +1,7 @@
 {
   "name": "@kcak11/file-transformer",
-  "version": "1.0.1",
-  "description": "A utility to transform file contents for easy upload / storage over cloud",
+  "version": "1.1.0",
+  "description": "A utility to transform file contents for easy upload / storage over cloud.",
   "main": "./exec/index.js",
   "bin": {
     "file-transformer": "./exec/index.js"
@@ -10,7 +10,9 @@
     "file",
     "transformer",
     "file-transformer",
-    "transform"
+    "transform",
+    "convert",
+    "conversion"
   ],
   "author": "K.C.Ashish Kumar",
   "license": "MIT",

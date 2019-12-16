@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const fs = require('fs');
+const pkgInfo = require('../package.json');
 
 let Logger = {
     log: function() {
@@ -17,14 +18,14 @@ if (!sourceFileName) {
     Logger.log("Usage:");
     Logger.log("npx npx-bin/file-transformer <filename_or_path>");
     Logger.log("");
-    Logger.log("This module is a CLI and cannot be used from a node js file currently.");
+    Logger.log("file-transformer@" + pkgInfo.version + " is a CLI and cannot be used from NodeJS scripts currently.");
     Logger.log("For more information, refer the readme file here . . .");
     Logger.log("https://github.com/npx-bin/file-transformer/blob/master/README.md");
     Logger.log("");
     Logger.log("");
     process.exit(1);
 } else {
-    Logger.log("Reading file: " + sourceFileName);
+    Logger.log("file-transformer@" + pkgInfo.version + " --> Reading file: " + sourceFileName);
     fs.readFile(sourceFileName, (err,data)=>{
         if (err) {
             Logger.log("\n", err, "\n\n");
@@ -45,7 +46,7 @@ if (!sourceFileName) {
             if (err) {
                 throw err;
             }
-            Logger.log("\nFile has been created:\n" + newFileName + "\n\n");
+            Logger.log("\nfile-transformer@" + pkgInfo.version + " --> File has been created: " + newFileName + "\n\n");
         });
     });
 }
